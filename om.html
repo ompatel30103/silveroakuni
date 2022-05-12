@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style type="text/css">
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: blueviolet;
+            position: relative;
+            animation-name: Demo;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+        }
+        
+        @keyframes Demo {
+            0% {
+                background-color: rgb(157, 202, 52);
+                left: 0px;
+                top: 0px;
+                transform: rotate(0deg);
+            }
+            25% {
+                background-color: rgb(211, 69, 12);
+                left: 200px;
+                top: 0px;
+                transform: rotate(90deg);
+            }
+            50% {
+                background-color: rgb(128, 128, 141);
+                left: 200px;
+                top: 200px;
+                transform: rotate(180deg);
+            }
+            75% {
+                background-color: green;
+                left: 0px;
+                top: 200px;
+                transform: rotate(270deg);
+            }
+            100% {
+                background-color: red;
+                left: 0px;
+                top: 0px;
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+</body>
+
+</html>
